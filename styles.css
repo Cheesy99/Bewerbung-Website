@@ -66,5 +66,10 @@ p {
     margin-top: 20px; /* adjust as needed */
 }
 
-
+@media screen and (max-width: 600px) {
+    .download a {
+        display: block; /* Change buttons to block elements */
+        margin-top: 10px; /* Add some space between buttons */
+    }
+}
 
