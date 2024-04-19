@@ -57,6 +57,11 @@ a {
     margin-top: 10px;
     margin-right: 10px;
     font-weight: 400;
+    transition: background-color 0.3s; /* Add transition effect */
+}
+
+a:active {
+    background-color: #555; /* Change background color when button is pressed */
 }
 
 p {
